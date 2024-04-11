@@ -1,0 +1,30 @@
+/* Base button styles */
+.button {
+
+    cursor: pointer;
+    padding: 0.7rem .8rem;
+    margin: 0 5px;
+    font-size: .9rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+   
+  }
+  
+  /* Primary button specific styles */
+  .button-primary {
+    background-color:white;
+    color: rgb(84, 84, 84);
+    border-color:rgb(221, 221, 221);
+  }
+  
+  /* Outlined button specific styles */
+  .button-outlined {
+    background-color: transparent;
+    color:var(--accentColor);
+    border-color: var(--accentColor);
+  }
+  .button-outlined-warning {
+    background-color: transparent;
+    color:red;
+    border-color:red;
+  }
